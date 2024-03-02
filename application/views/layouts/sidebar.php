@@ -223,7 +223,7 @@
                   </div>
                 </div>
               </li> -->
-              <?php if (in_array('users_can_see_user', role_based_permission()) || in_array('user_can_see_roles', role_based_permission()) || in_array('user_can_see_permission', role_based_permission())) { ?>
+              <?php if (in_array('user_can_see_user', role_based_permission()) || in_array('user_can_see_roles', role_based_permission()) || in_array('user_can_see_permission', role_based_permission())) { ?>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#navbar-help" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button" aria-expanded="false" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/lifebuoy -->
@@ -234,7 +234,7 @@
                     </span>
                   </a>
                   <div class="dropdown-menu">
-                    <?php if (in_array('users_can_see_user', role_based_permission())) { ?>
+                    <?php if (in_array('user_can_see_user', role_based_permission())) { ?>
                       <a class="dropdown-item" href="<?= base_url()?>user/index" rel="noopener">
                         User
                       </a>

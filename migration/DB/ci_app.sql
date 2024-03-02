@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `permissions` (
 
 INSERT INTO `permissions` (`id`, `name`, `description`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (5, 'user_can_see_dashboard', 'user can see dashboard', '2023-11-08 10:16:29', '2023-11-08 10:16:29', NULL),
-(3, 'users_can_see_user', 'user can see user\r\n', '2023-11-08 09:51:55', '2023-11-08 09:51:55', NULL),
+(3, 'user_can_see_user', 'user can see user\r\n', '2023-11-08 09:51:55', '2023-11-08 09:51:55', NULL),
 (6, 'user_can_see_roles', 'user can see roles', '2023-11-08 12:47:44', '2023-11-08 12:47:44', NULL),
 (11, 'user_can_see_product_list', 'User can see product list\r\n', '2023-11-13 12:41:25', '2023-11-13 12:41:25', NULL),
 (10, 'user_can_see_permission', 'User can see permission', '2023-11-13 12:40:25', '2023-11-13 12:40:25', NULL);

@@ -22,7 +22,7 @@ CREATE TABLE permissions(
 );
 -- insert these records
 INSERT INTO permissions (`name`, `description`) VALUES('user_can_see_dashboard', 'User Can See Dashboard');
-INSERT INTO permissions (`name`, `description`) VALUES('users_can_see_user', 'User Can See User');
+INSERT INTO permissions (`name`, `description`) VALUES('user_can_see_user', 'User Can See User');
 INSERT INTO permissions (`name`, `description`) VALUES('user_can_see_roles', 'User Can See Roles');
 INSERT INTO permissions (`name`, `description`) VALUES('user_can_see_permission', 'User Can See Permission');
 INSERT INTO permissions (`name`, `description`) VALUES('user_can_see_product_list', 'User Can See Product List');

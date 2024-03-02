@@ -25,7 +25,7 @@
         <?php include_once('./application/views/layouts/topbar.php') ?>
 
         <!-- give permission to the user for this module-->
-        <?php // if (in_array('users_can_see_user', role_based_permission())) { ?>
+        <?php if (in_array('user_can_see_user', role_based_permission())) { ?>
             <div class="page-wrapper">
             <!-- Page header -->
             <div class="page-header d-print-none">
@@ -96,9 +96,9 @@
             </div>
             <?php include_once('./application/views/layouts/footer.php') ?>
         </div>
-        <?php // }  else {
-            // redirect(base_url().'404');
-        //}
+        <?php }  else {
+            redirect(base_url().'404');
+        }
         ?>
         <!-- end permission-->
     </div>
