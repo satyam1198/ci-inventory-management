@@ -1,0 +1,1 @@
+define('MY_CUSTOM_DIR', base_url().'custom_dir_folder/');
