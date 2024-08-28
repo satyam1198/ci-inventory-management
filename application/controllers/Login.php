@@ -8,7 +8,7 @@ class Login extends CI_Controller
      * @return void
      */
     public function login()
-    {
+    { 
         $this->load->model('User_model');
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('password', 'Password', 'required');
