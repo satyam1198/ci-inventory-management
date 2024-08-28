@@ -17,8 +17,9 @@ $config = Array(
   'protocol' => 'smtp',
   'smtp_host' => 'sandbox.smtp.mailtrap.io',
   'smtp_port' => 2525,
-  'smtp_user' => '150776bbe69b72',
-  'smtp_pass' => '3c938f28ebea5a',
+  'smtp_user' => 'a7c14227988c9f',
+  'smtp_pass' => 'a82fca0da82be4',
+  'mailtype' => 'html',
   'crlf' => "\r\n",
   'newline' => "\r\n"
 );
